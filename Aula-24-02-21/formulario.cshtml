@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Transmissão de dados entre páginas - Formulários</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form action="~/pag01.cshtml" method="post" class="row">
+            <div class="col-md-6">
+                <label for="nome_entrada" class="form-label">Nome</label>
+                <input type="text" name="nome_entrada" placeholder="Informe o nome" />
+            </div>
+            <div class="col-md-6">
+                <label for="email_entrada" class="form-label">Email</label>
+                <input type="email" name="email_entrada" placeholder="seuemail@email.com" />
+            </div>
+            
+            
+            Password:
+            <input type="password" name="password_entrada" placeholder="Informe sua senha" />
+
+            <button>
+                Submit
+            </button>
+        </form>
+    </div>
+    
+</body>
+</html>

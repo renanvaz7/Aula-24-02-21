@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Transmissão de dados entre páginas - Formulários</title>
+</head>
+<body>
+    @{ 
+        @Request["nome_entrada"] <br />
+        @Request["email_entrada"] <br />
+        @Request["password_entrada"]<br />
+
+        <a href="~/formulario.cshtml">
+            <button type="button">Voltar</button>
+        </a>
+    }
+</body>
+</html>
